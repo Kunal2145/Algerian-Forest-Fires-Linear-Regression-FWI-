@@ -69,13 +69,16 @@ The dataset contains 244 instances covering two regions of Algeria:
 ### Predicted vs. Actual FWI — Scatter Plots
 
 **Lasso Regression**
-![Lasso Regression scatter plot](images/lasso_scatter.png)
+![Lasso Regression scatter plot](<img width="665" height="467" alt="lasso_scatter" src="https://github.com/user-attachments/assets/57c038c8-5922-4a79-8c0d-ef9d3a35ed9c" />
+)
 
 **Ridge Regression**
-![Ridge Regression scatter plot](images/ridge_scatter.png)
+![Ridge Regression scatter plot](<img width="665" height="467" alt="ridge_scatter" src="https://github.com/user-attachments/assets/84709a00-2ba1-4525-af8a-2a5e03f02672" />
+)
 
 **ElasticNet Regression**
-![ElasticNet Regression scatter plot](images/elasticnet_scatter.png)
+![ElasticNet Regression scatter plot](<img width="665" height="467" alt="elasticnet_scatter" src="https://github.com/user-attachments/assets/d341d67a-ac66-4a55-ad1a-3d59d859ea26" />
+)
 
 In each plot, the x-axis is the actual FWI value (`y_test`) and the y-axis is the model's predicted FWI (`y_pred`). Points closer to a tight diagonal line indicate better predictions — visible here as Ridge producing the tightest fit.
 
